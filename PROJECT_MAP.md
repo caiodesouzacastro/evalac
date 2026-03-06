@@ -35,11 +35,11 @@ evalac/
 |       |-- 09_CaseStudy_CheatSheet_Session4.docx
 |       |-- 10_CaseStudy_CheatSheet_Session5.docx
 |
-|-- code/                          (empty — .gitkeep only)
-|-- data/                          (empty — .gitkeep only)
-|-- figures/                       (empty — .gitkeep only)
-|-- notes/                         (empty — .gitkeep only)
-|-- papers/                        (empty — .gitkeep only)
+|-- code/                          (empty)
+|-- data/                          (empty)
+|-- figures/                       (empty)
+|-- notes/                         (empty)
+|-- papers/                        (empty)
 |
 |-- feedback/
 |   |-- Check in Meeting 1 Observations.docx
@@ -73,10 +73,42 @@ evalac/
         |   |   |-- generate_s1.py
         |   |-- 03_feedback/              (empty)
         |
-        |-- session_2_results_matrix/     (empty — .gitkeep only)
-        |-- session_3_qualitative_methods/(empty — .gitkeep only)
-        |-- session_4_quantitative_methods/(empty — .gitkeep only)
-        |-- session_5_contribution_analysis/(empty — .gitkeep only)
+        |-- session_2_results_matrix/
+        |   |-- 00_inbox/
+        |   |   |-- Cheat Sheet Actividades 2 en-US.docx
+        |   |   |-- Design of M&E indicators.pptx
+        |   |   |-- Indicators - Sesion 2.pdf
+        |   |   |-- RM-Sesion 2.pdf
+        |   |-- 01_working/              (empty)
+        |   |-- 02_final/                (empty)
+        |   |-- 03_feedback/             (empty)
+        |
+        |-- session_3_qualitative_methods/
+        |   |-- 00_inbox/
+        |   |   |-- Case Study Quali.docx
+        |   |   |-- ENG_ Qualitative Methods for Evaluation v1.pptx
+        |   |   |-- ENG_ Qualitative Methods for Evaluation v2.pptx
+        |   |   |-- Quali Media.mp4
+        |   |   |-- Sheet - Focus Group Roles.docx
+        |   |-- 01_working/              (empty)
+        |   |-- 02_final/                (empty)
+        |   |-- 03_feedback/             (empty)
+        |
+        |-- session_4_quantitative_methods/
+        |   |-- 00_inbox/
+        |   |   |-- 1. Didactic sequence. Outcome evaluation_eng.docx
+        |   |   |-- Matrix-Sesion 3.pdf
+        |   |   |-- Outcome Evaluation.pptx
+        |   |   |-- Quantitative Data Collection.pptx
+        |   |-- 01_working/              (empty)
+        |   |-- 02_final/                (empty)
+        |   |-- 03_feedback/             (empty)
+        |
+        |-- session_5_contribution_analysis/
+            |-- 00_inbox/                (empty)
+            |-- 01_working/              (empty)
+            |-- 02_final/                (empty)
+            |-- 03_feedback/             (empty)
 ```
 
 ---
@@ -89,6 +121,7 @@ evalac/
 |------|-------------|
 | CLAUDE.md | Agent instructions for Claude: project structure, tasks, output expectations |
 | GPT_GUIDE.md | User preferences for AI assistants: step-by-step pace, checklists, minimal viable solutions |
+| PROJECT_MAP.md | This file — complete folder tree, file descriptions, status, and gaps |
 | PROJECT_MEMORY.md | Running project log: repo setup, conventions, design principles, feedback summary |
 | README.md | Repository title placeholder (minimal content) |
 
@@ -162,6 +195,43 @@ evalac/
 | S1_Final_v01.pptx | Final generated PPTX for Session 1 (49 slides including section dividers) |
 | generate_s1.py | Python script (python-pptx) that generates S1_Final_v01.pptx from session_1_structure.md |
 
+### slides/evalac_2026/session_2_results_matrix/
+
+| File | Description |
+|------|-------------|
+| **00_inbox/** | |
+| Cheat Sheet Actividades 2 en-US.docx | Exercise worksheet for Session 2: complete a Results Matrix row with indicators for a reforestation ToC |
+| Design of M&E indicators.pptx | Original 63-slide deck on indicator design: ToC-to-RM relationship, indicator characteristics, validation |
+| Indicators - Sesion 2.pdf | Spanish-language session plan for Session 2 indicators block (PDF) |
+| RM-Sesion 2.pdf | Spanish-language session plan for Session 2 Results Matrix block (PDF) |
+
+### slides/evalac_2026/session_3_qualitative_methods/
+
+| File | Description |
+|------|-------------|
+| **00_inbox/** | |
+| Case Study Quali.docx | Practical exercise case study: IDB Shared Guarantee Program for tourism in Panama (qualitative methods) |
+| ENG_ Qualitative Methods for Evaluation v1.pptx | Original 63-slide deck v1: qualitative methods, approaches, and practice exercises |
+| ENG_ Qualitative Methods for Evaluation v2.pptx | Revised 66-slide deck v2: qualitative methods with updated structure and slide numbering |
+| Quali Media.mp4 | Video resource for qualitative methods session |
+| Sheet - Focus Group Roles.docx | Focus group role assignment worksheet (empty / template only) |
+
+### slides/evalac_2026/session_4_quantitative_methods/
+
+| File | Description |
+|------|-------------|
+| **00_inbox/** | |
+| 1. Didactic sequence. Outcome evaluation_eng.docx | Didactic sequence for outcome evaluation session (empty / template only) |
+| Matrix-Sesion 3.pdf | Spanish-language session matrix for Session 3/4 crossover (PDF) |
+| Outcome Evaluation.pptx | Original 67-slide deck: outcome evaluation, contribution analysis, contribution story, evidence validation |
+| Quantitative Data Collection.pptx | Original 71-slide deck: quantitative data collection techniques, survey design, data analysis intro |
+
+### slides/evalac_2026/session_5_contribution_analysis/
+
+| File | Description |
+|------|-------------|
+| **00_inbox/** | (empty — no source materials yet) |
+
 ---
 
 ## 3. STATUS
@@ -184,16 +254,19 @@ evalac/
 | Item | Detail |
 |------|--------|
 | Session 1 — 03_feedback | Folder exists but is empty; no reviewer feedback on the revised deck yet |
-| Session 1 — handouts | REVISION_PLAN.md lists instructor notes and narrative handouts as outputs, but these have not been created |
+| Session 1 — handouts | REVISION_PLAN.md lists instructor notes and narrative handouts as outputs; not yet created |
+| Session 2 — inbox populated | Source materials present (1 docx, 1 pptx, 2 pdfs); no working or final outputs yet |
+| Session 3 — inbox populated | Source materials present (2 docx, 2 pptx, 1 mp4); no working or final outputs yet |
+| Session 4 — inbox populated | Source materials present (1 docx, 2 pptx, 1 pdf); no working or final outputs yet |
 
 ### Not Started
 
 | Item | Detail |
 |------|--------|
-| Session 2 — Results Matrix & Indicators | Folder exists (.gitkeep only); no materials |
-| Session 3 — Qualitative Methods | Folder exists (.gitkeep only); no materials |
-| Session 4 — Quantitative Methods | Folder exists (.gitkeep only); no materials |
-| Session 5 — Contribution Analysis | Folder exists (.gitkeep only); no materials |
+| Session 2 — revision | 01_working/, 02_final/, 03_feedback/ are empty; no structure, mapping, or revised deck |
+| Session 3 — revision | 01_working/, 02_final/, 03_feedback/ are empty; no structure, mapping, or revised deck |
+| Session 4 — revision | 01_working/, 02_final/, 03_feedback/ are empty; no structure, mapping, or revised deck |
+| Session 5 — everything | All four subfolders are empty; no source materials, no working files, no outputs |
 | code/ | Empty; no analysis scripts |
 | data/ | Empty; no datasets |
 | figures/ | Empty; no generated figures |
@@ -208,9 +281,11 @@ evalac/
 
 | File | Issue |
 |------|-------|
-| README.md | Contains only the repo title ("Evalac") with no project description, setup instructions, or contributor info |
-| slides/template/slide_structure.md | Generic 10-slide academic template; not adapted to the EVALAC course format (5-block session structure) |
-| SESSION_1_MAP.md | Early-stage overview that predates the full revision; structure section is outdated compared to session_1_structure.md |
+| README.md | Contains only the repo title ("Evalac"); no project description, setup instructions, or contributor info |
+| slides/template/slide_structure.md | Generic 10-slide academic template; not adapted to the EVALAC 5-block session format |
+| SESSION_1_MAP.md | Early-stage overview that predates the full revision; structure section is outdated vs. session_1_structure.md |
+| Sheet - Focus Group Roles.docx | File exists but contains no text (empty template) |
+| 1. Didactic sequence. Outcome evaluation_eng.docx | File exists but contains no text (empty template) |
 
 ### Expected files that do not exist
 
@@ -218,6 +293,9 @@ evalac/
 |---------------|--------|
 | Session 1 instructor notes (docx/md) | Listed in REVISION_PLAN.md as a required output |
 | Session 1 narrative handout (1-page vignette) | Referenced in session_1_structure.md (Slide 5) as a printed handout |
-| Session 1 participant workbook templates | Results chain template, COM-B lens card, assumption classification card — referenced in exercises but not yet created |
-| Session 2-5 session maps / structure files | No equivalent of SESSION_1_MAP.md or session_X_structure.md for any other session |
-| Session 2-5 inbox materials | Original slides and documents for Sessions 2-5 have not been added to the repo |
+| Session 1 participant workbook templates | Results chain template, COM-B lens card, assumption classification card — referenced in exercises but not created |
+| Session 2 SESSION_MAP / structure file | No equivalent of SESSION_1_MAP.md or session_structure.md for Session 2 |
+| Session 3 SESSION_MAP / structure file | No equivalent of SESSION_1_MAP.md or session_structure.md for Session 3 |
+| Session 4 SESSION_MAP / structure file | No equivalent of SESSION_1_MAP.md or session_structure.md for Session 4 |
+| Session 5 SESSION_MAP / structure file | No equivalent of SESSION_1_MAP.md or session_structure.md for Session 5 |
+| Session 5 inbox materials | No source slides, docx, or pdfs have been added for Session 5 |
